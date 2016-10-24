@@ -10,6 +10,13 @@ h1 {
 
 a.btn {
   background: rgba(100, 100, 100, 0.5);
+  font-family: "Arial Black", Gadget, sans-serif;
+  border-radius: 3px;
+  color: #fff;
+}
+
+a.btn:visited {
+  background: rgba(100, 100, 100, 0.5);
   border-radius: 3px;
   color: #fff;
 }
