@@ -1,0 +1,22 @@
+{
+  "name": "emilyragan.github.io",
+  "version": "1.0.0",
+  "description": "My personal page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilyRagan/EmilyRagan.github.io.git"
+  },
+  "author": "Emily Ragan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilyRagan/EmilyRagan.github.io/issues"
+  },
+  "homepage": "https://github.com/EmilyRagan/EmilyRagan.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
