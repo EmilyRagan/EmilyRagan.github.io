@@ -4,7 +4,11 @@
   "description": "My personal page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass sass/ -o css/",
+    "start": "npm run sass & python -m http.server"
+  },"watches": {
+    "sass": "sass/**"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,7 @@
   },
   "homepage": "https://github.com/EmilyRagan/EmilyRagan.github.io#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2"
+    "bootstrap": "^4.0.0-beta.2",
+    "node-sass": "^4.7.2"
   }
 }
