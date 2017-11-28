@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass sass/ -o css/",
-    "start": "npm run sass & python -m http.server"
-  },"watches": {
+    "sass": "node-sass sass/styles-wip.scss -o css/",
+    "change": "onchange \"sass/*.scss\" -- npm run sass",
+    "start": "npm run sass && python -m http.server",
+    "start:dev": "concurrently \"npm run change\" \"python -m http.server\""
+  },
+  "watches": {
     "sass": "sass/**"
   },
   "repository": {
@@ -23,5 +26,9 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "onchange": "^3.2.1"
   }
 }
