@@ -1,8 +1,8 @@
 import React from 'react';
 import { ListGroup } from 'react-bootstrap';
-import { Experience } from '../components/Resume/Experience';
-import ResumeJSON from '../components/Resume/resume.json';
-import { IExperience } from '../components/Resume/ResumeInterfaces';
+import { Experience } from './Experience';
+import ResumeJSON from './resume.json';
+import { IExperience } from './ResumeInterfaces';
 
 const Resume = () =>
 {

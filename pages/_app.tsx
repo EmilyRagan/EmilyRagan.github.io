@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Navbar bg='dark' variant='dark'>
                 <Navbar.Brand>Emily Ragan</Navbar.Brand>
                 <Nav className='mr-auto'>
-                    <Nav.Link href='/resume'>Resume</Nav.Link>
+                    <Nav.Link href='/'>Resume</Nav.Link>
                     <Nav.Link href='/seniorproject'>Senior Project</Nav.Link>
                 </Nav>
             </Navbar>
