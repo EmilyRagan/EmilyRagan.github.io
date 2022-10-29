@@ -7,7 +7,7 @@ import './index.css';
 function MyApp({ Component, pageProps }: AppProps) {
     return (
         <div style={{ alignItems: 'stretch', display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-            <Navbar bg='dark' variant='dark'>
+            <Navbar bg='dark' sticky='top' variant='dark'>
                 <Navbar.Brand>Emily Ragan</Navbar.Brand>
                 <Nav className='mr-auto'>
                     <Nav.Link href='/'>Resume</Nav.Link>
