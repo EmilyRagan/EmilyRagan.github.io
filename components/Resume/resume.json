@@ -10,7 +10,7 @@
                 "Evaluate, modify, and display geojson using Turf.js and Leaflet.js",
                 "Write re-usable components that can be shared across various parts of the application",
                 "Present tech talks to teammates about exciting development techniques",
-                "Assist other developers to complete tickets in the best way possible",
+                "Assist other developers with complex styling and React lifecycle",
                 "Strive for clean and testable code, using automated techniques where possible like eslint and running unit tests as part of CI"
             ]
         },
