@@ -1,46 +1,47 @@
 {
     "experience": [
         {
-            "title": "Junior Software Engineer",
+            "title": "Software Engineer",
             "employer": "Skyward App Company",
             "location": "Columbia, MD",
-            "dates": "April 2019 - Present",
+            "dates": "April 2021 - Present",
             "bullets": [
-                "Develop online/offline iOS application in React Native that consumes REST APIs",
-                "Communicate with customers during demos and for requirements clarification",
-                "Work on web applications using React.js, mapbox-gl, C#, and Entity Framework",
-                "Implement REST API endpoints for web application",
-                "Internal presentation to company about front-end automated testing"
+                "Update existing iOS-only React Native application to modern technologies and add Android support",
+                "Evaluate, modify, and display geojson using Turf.js and Leaflet.js",
+                "Write re-usable components that can be shared across various parts of the application",
+                "Present tech talks to teammates about exciting development techniques",
+                "Assist other developers to complete tickets in the best way possible",
+                "Strive for clean and testable code, using automated techniques where possible like eslint and running unit tests as part of CI"
             ]
         },
         {
-            "title": "Software Engineer Intern at NASA Goddard Space Flight Center",
+            "title": "Junior Software Engineer",
+            "employer": "Skyward App Company",
+            "location": "Columbia, MD",
+            "dates": "April 2019 - April 2021",
+            "bullets": [
+                "Developed online/offline iOS application in React Native that consumes external REST APIs",
+                "Communicated with customers during demos and for requirements clarification",
+                "Worked on web applications using React.js, mapbox-gl, C#, and Entity Framework",
+                "Implemented REST API endpoints for web application",
+                "Presented to teammates about front-end automated testing"
+            ]
+        },
+        {
+            "title": "Software Engineer Intern (NASA GSFC)",
             "employer": "MTI Systems",
             "location": "Greenbelt, MD",
             "dates": "May 2017 - April 2019",
             "bullets": [
+                "Worked year round at NASA for 2 years, 20-30 hours per week during the semester and full-time during breaks",
                 "Lead team of 3-6 interns for SCaN Now: delegated assignments, reviewed code, prioritized tickets",
                 "Planned, organized, and ran meetings to review features and improvements for SCaN Now",
                 "Presented products to stakeholders from NASA Headquarters for SCaN Now",
                 "Developed features for responsive web applications",
                 "Used publish and subscribe functions on a WAMP bus to communicate status for display",
                 "Collaborated with subject matter experts to design improvements and features for UI/UX",
-                "Developed map-base interactive mission tour in Angular 7 with Angular Material and Leaflet.js"
+                "Developed map-based interactive mission tour in Angular 7 with Angular Material and Leaflet.js"
             ]
-        },
-        {
-            "title": "Math and Computer Science Tutor",
-            "employer": "University of Richmond",
-            "location": "Richmond, VA",
-            "dates": "January - April 2017",
-            "bullets": []
-        },
-        {
-            "title": "Computer Science Lab and Grading Assistant",
-            "employer": "University of Richmond",
-            "location": "Richmond, VA",
-            "dates": "August - December 2016",
-            "bullets": []
         }
     ]
 }
