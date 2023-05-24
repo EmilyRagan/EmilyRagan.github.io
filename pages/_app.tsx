@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import type { AppProps } from 'next/app';
-import Image from 'next/image';
 import { Nav, Navbar } from 'react-bootstrap';
 import './index.css';
+import { Github, Linkedin } from 'react-bootstrap-icons';
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
@@ -13,10 +13,10 @@ function MyApp({ Component, pageProps }: AppProps) {
                     <Nav.Link href='/'>Resume</Nav.Link>
                     <Nav.Link href='/seniorproject'>Senior Project</Nav.Link>
                     <Nav.Link href='https://www.linkedin.com/in/emilylynnragan/'>
-                        <Image alt="LinkedIn icon" src='/images/svgs/linkedin.svg' width={24} height={24} />
+                        <Linkedin />
                     </Nav.Link>
                     <Nav.Link href='https://github.com/EmilyRagan'>
-                        <Image alt="GitHub icon" src="/images/svgs/github.svg" width={24} height={24} />
+                        <Github />
                     </Nav.Link>
                 </Nav>
             </Navbar>
