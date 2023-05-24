@@ -1,7 +1,9 @@
+import Link from 'next/link';
 import { Button, Card, Col, Container, ListGroup, Row } from 'react-bootstrap';
+import { Apple, GooglePlay } from 'react-bootstrap-icons';
 import { Experience } from './Experience';
-import ResumeJSON from './resume.json';
 import { IExperience } from './ResumeInterfaces';
+import ResumeJSON from './resume.json';
 
 const Resume = () =>
 {
@@ -27,6 +29,19 @@ const Resume = () =>
                         <Card.Body>
                             <Card.Text>The Landsat 9 Interactive Mission Tour is a map-based visual guide through the various aspects of creating and preparing the Landsat 9 satellite for its mission.</Card.Text>
                             <Button href='https://landsat.gsfc.nasa.gov/landsat-9/interactive/' variant='primary'>L9 Interactive</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={3}>
+                    <Card>
+                        <Card.Body>
+                            <Card.Text>The PA AIS Field Guide is a mobile app that helps with education and reporting of aquatic invasive species in Pennsylvania</Card.Text>
+                            <Link href='https://apps.apple.com/us/app/pa-ais/id1448504422' title='App Store' >
+                                <Apple height={24} width={24} />
+                            </Link>
+                            <Link href='https://play.google.com/store/apps/details?id=us.skywardapps.seagrant&hl=en_US&pli=1' title='Play Store'>
+                                <GooglePlay height={24} width={24} />
+                            </Link>
                         </Card.Body>
                     </Card>
                 </Col>
