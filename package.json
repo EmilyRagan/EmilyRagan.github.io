@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.79.3",
+    "@react-three/fiber": "^8.13.5",
     "bootstrap": "^4.5.0",
     "next": "latest",
     "react": "latest",
     "react-bootstrap": "^1.4.0",
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "latest",
+    "satellite.js": "^5.0.0",
+    "three": "^0.154.0",
     "typescript": "latest"
   },
   "scripts": {
@@ -36,6 +40,7 @@
     "@types/react-bootstrap": "^0.32.24",
     "@types/react-dom": "latest",
     "@types/react-router-dom": "^5.1.5",
+    "@types/three": "^0.154.0",
     "eslint": "^8.23.0",
     "eslint-config-next": "12.2.5"
   },

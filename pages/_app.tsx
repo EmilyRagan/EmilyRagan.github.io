@@ -19,6 +19,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                         <Nav.Link href='/seniorproject'>Senior Project</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
+                        <Nav.Link href='/earthorbit'>Earth Orbit</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
                         <Nav.Link href='https://www.linkedin.com/in/emilylynnragan/'>
                             <Linkedin />
                         </Nav.Link>
