@@ -1,10 +1,34 @@
 {
     "experience": [
         {
+            "title": "Staff Software Engineer",
+            "employer": "OpenC3",
+            "location": "Erie, CO",
+            "dates": "October 2025 - Present",
+            "bullets": [
+                "Working on open source command and control software",
+                "Supporting customers integrating COSMOS"
+            ]
+        },
+        {
+            "title": "Senior Software Development Engineer",
+            "employer": "Esri",
+            "location": "Louisville, CO",
+            "dates": "October 2023 - October 2025",
+            "bullets": []
+        },
+        {
+            "title": "Senior Software Engineer",
+            "employer": "Skyward App Company",
+            "location": "Columbia, MD",
+            "dates": "April 2023 - September 2023",
+            "bullets": []
+        },
+        {
             "title": "Software Engineer",
             "employer": "Skyward App Company",
             "location": "Columbia, MD",
-            "dates": "April 2021 - Present",
+            "dates": "April 2021 - April 2023",
             "bullets": [
                 "Update existing iOS-only React Native application to modern technologies and add Android support",
                 "Evaluate, modify, and display geojson using Turf.js and Leaflet.js",
